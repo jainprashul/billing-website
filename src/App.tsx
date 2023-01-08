@@ -76,7 +76,7 @@ function App() {
           <a href={APP_TRY} target={'_blank'} className='try-btn try' style={{
             display: 'inline-block',
             padding: '10px 20px',
-            marginLeft: '1.5rem'
+            marginTop: '1rem'
           }}>Try for Free</a>
         </div>
 

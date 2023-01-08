@@ -18,9 +18,13 @@ const NavBar = (props: Props) => {
             <li><a href='#'>Home</a></li>
             <li><a href='#features'>Features</a></li>
             <li><a href='#why'>Why</a></li>
-            <li><a href='#about'>About</a></li>
+            {/* <li><a href='#about'>About</a></li> */}
             <li><a className='try-btn' href={APP_TRY} target={'_blank'}>Try Now</a></li>
         </ul>
+        
+        <div className="hamburger">
+          <a className='try-btn' href={APP_TRY} target={'_blank'}>Try Now</a>
+        </div>
     </nav>
   )
 }
