@@ -88,6 +88,10 @@
   margin: 0 auto;
 }
 
+.readonly {
+  padding: 2rem 17%;
+}
+
 @media screen and (min-width: 768px) {
   .container {
     max-width: 90%;

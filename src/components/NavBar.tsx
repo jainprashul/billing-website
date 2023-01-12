@@ -1,5 +1,6 @@
 import React from 'react'
-import { APP_TRY } from '../App'
+import { APP_TRY } from './Layout'
+
 
 type Props = {}
 
